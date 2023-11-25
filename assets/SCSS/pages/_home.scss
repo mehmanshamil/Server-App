@@ -1,0 +1,286 @@
+* {
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
+header {
+    background-color: rgb(52, 58, 64);
+
+    .container {
+        width: 83% !important;
+
+        ul {
+            li a {
+                color: #fff !important;
+                opacity: 0.7;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+
+        .buttons {
+            .registr {
+                color: #fff;
+                border: none;
+                background: transparent;
+                border: 1px solid #7cbd1e;
+                padding: 10px 20px;
+                transition: 1s;
+
+                &:hover {
+                    background-color: #7cbd1e;
+                }
+            }
+
+            .login {
+                color: #fff;
+                border: none;
+                background-color: rgb(124, 189, 30);
+                padding: 10px 20px;
+                transition: 1s;
+
+                &:hover {
+                    color: #7cbd1e;
+                    background: transparent;
+                }
+            }
+        }
+
+        .mini-menu-item {
+            color: black !important;
+        }
+    }
+
+}
+
+#domain {
+    background-image: url("../../../assets/Img/hero_bg_1\ \(1\).jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text {
+        max-width: 800px;
+        text-align: center;
+
+        p {
+            padding: 0;
+            color: #fff;
+            font-size: 3.5rem;
+            width: 100%;
+        }
+
+        .button-dowload {
+            .dwnld {
+                color: #fff;
+                background-color: rgb(124, 189, 30);
+                border: none;
+                padding: 20px 30px;
+                width: 170px;
+                transition: 1s;
+
+                &:hover {
+                    background-color: #75ad25;
+                }
+            }
+
+            .getTouch {
+                color: #fff;
+                background: transparent;
+                border: 1px solid #fff;
+                padding: 20px 30px;
+                width: 170px;
+                transition: 1s;
+
+                &:hover {
+                    background-color: #fff;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+#hosting {
+    background-color: rgb(248, 249, 250);
+
+    .different-txt {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        .row {
+            .box {
+                text-align: center;
+                align-items: center;
+                background-color: #fff;
+                border: 1px solid rgb(222, 226, 230);
+                width: 350px;
+                padding: 15px;
+
+                i {
+                    color: #75ad25;
+                    font-size: 2.5rem;
+                }
+
+                button {
+                    padding: 10px;
+                    color: #fff;
+                    background-color: #75ad25;
+                    border: none;
+                    border-radius: 8px;
+                    transition: 1s;
+                    width: 150px;
+
+                    &:hover {
+                        background-color: #fff;
+                        color: #75ad25;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#satisfied {
+    background-image: url("../../../assets/Img/hero_bg_3.jpg.webp");
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 30rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    .satisfied-txt {
+        color: #fff;
+    }
+
+    .container {
+        .clients {
+            font-size: 3.5rem;
+        }
+
+        .rated {
+            font-size: 1.5rem;
+        }
+
+        button {
+            background-color: #75ad25;
+            border: none;
+            transition: 1s;
+            padding: 15px;
+            color: #fff;
+            border-radius: 8px;
+
+            &:hover {
+                color: black;
+                background-color: #fff;
+            }
+        }
+    }
+}
+
+#choose {
+    .container {
+        .choosetxt {
+            font-size: 2rem;
+            font-weight: 500;
+            opacity: 0.7;
+
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+
+            .col-xl-3 {
+                border: 1px solid #75ad25;
+                transition: 1s;
+
+                &:hover {
+                    background-color: #75ad25;
+                    color: #fff;
+
+                    .logo {
+                        border: 1px solid #fff;
+                    }
+                }
+
+                .box {
+                    width: 80%;
+
+                    .logo {
+                        font-size: 2rem;
+                        border: 1px solid #75ad25;
+                        border-radius: 50%;
+                    }
+
+                    p {
+                        align-items: center;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(57, 62, 70);
+
+    .row {
+        .container {
+            color: #fff !important;
+
+            .row {
+                color: #fff !important;
+
+                .col-xl-4 {
+                    ul {
+                        margin: 0 !important;
+                        padding: 0 !important;
+
+                        li {
+                            a {
+                                color: gray;
+                                opacity: 0.7;
+
+                                &:hover {
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:968px) {
+    footer {
+        .row {
+            .col-xl-7 {
+                .row {
+                    gap: 25px;
+                }
+            }
+        }
+    }
+
+    #hosting {
+        .container {
+            .row {
+                gap: 25px;
+            }
+        }
+    }
+}

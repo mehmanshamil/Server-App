@@ -1,0 +1,215 @@
+* {
+  list-style-type: none !important;
+  text-decoration: none !important;
+}
+
+header {
+  background-color: rgb(52, 58, 64);
+}
+header .container {
+  width: 83% !important;
+}
+header .container ul li a {
+  color: #fff !important;
+  opacity: 0.7;
+}
+header .container ul li a:hover {
+  opacity: 1;
+}
+header .container .buttons .registr {
+  color: #fff;
+  border: none;
+  background: transparent;
+  border: 1px solid #7cbd1e;
+  padding: 10px 20px;
+  transition: 1s;
+}
+header .container .buttons .registr:hover {
+  background-color: #7cbd1e;
+}
+header .container .buttons .login {
+  color: #fff;
+  border: none;
+  background-color: rgb(124, 189, 30);
+  padding: 10px 20px;
+  transition: 1s;
+}
+header .container .buttons .login:hover {
+  color: #7cbd1e;
+  background: transparent;
+}
+header .container .mini-menu-item {
+  color: black !important;
+}
+
+#domain {
+  background-image: url("../../../assets/Img/hero_bg_1 (1).jpg");
+  background-attachment: fixed;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#domain .text {
+  max-width: 800px;
+  text-align: center;
+}
+#domain .text p {
+  padding: 0;
+  color: #fff;
+  font-size: 3.5rem;
+  width: 100%;
+}
+#domain .text .button-dowload .dwnld {
+  color: #fff;
+  background-color: rgb(124, 189, 30);
+  border: none;
+  padding: 20px 30px;
+  width: 170px;
+  transition: 1s;
+}
+#domain .text .button-dowload .dwnld:hover {
+  background-color: #75ad25;
+}
+#domain .text .button-dowload .getTouch {
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 20px 30px;
+  width: 170px;
+  transition: 1s;
+}
+#domain .text .button-dowload .getTouch:hover {
+  background-color: #fff;
+  color: black;
+}
+
+#hosting {
+  background-color: rgb(248, 249, 250);
+}
+#hosting .different-txt {
+  font-size: 2.5rem;
+}
+#hosting .container .row .box {
+  text-align: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid rgb(222, 226, 230);
+  width: 350px;
+  padding: 15px;
+}
+#hosting .container .row .box i {
+  color: #75ad25;
+  font-size: 2.5rem;
+}
+#hosting .container .row .box button {
+  padding: 10px;
+  color: #fff;
+  background-color: #75ad25;
+  border: none;
+  border-radius: 8px;
+  transition: 1s;
+  width: 150px;
+}
+#hosting .container .row .box button:hover {
+  background-color: #fff;
+  color: #75ad25;
+}
+
+#satisfied {
+  background-image: url("../../../assets/Img/hero_bg_3.jpg.webp");
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 30rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#satisfied .satisfied-txt {
+  color: #fff;
+}
+#satisfied .container .clients {
+  font-size: 3.5rem;
+}
+#satisfied .container .rated {
+  font-size: 1.5rem;
+}
+#satisfied .container button {
+  background-color: #75ad25;
+  border: none;
+  transition: 1s;
+  padding: 15px;
+  color: #fff;
+  border-radius: 8px;
+}
+#satisfied .container button:hover {
+  color: black;
+  background-color: #fff;
+}
+
+#choose .container .choosetxt {
+  font-size: 2rem;
+  font-weight: 500;
+  opacity: 0.7;
+}
+#choose .container .row {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+#choose .container .row .col-xl-3 {
+  border: 1px solid #75ad25;
+  transition: 1s;
+}
+#choose .container .row .col-xl-3:hover {
+  background-color: #75ad25;
+  color: #fff;
+}
+#choose .container .row .col-xl-3:hover .logo {
+  border: 1px solid #fff;
+}
+#choose .container .row .col-xl-3 .box {
+  width: 80%;
+}
+#choose .container .row .col-xl-3 .box .logo {
+  font-size: 2rem;
+  border: 1px solid #75ad25;
+  border-radius: 50%;
+}
+#choose .container .row .col-xl-3 .box p {
+  align-items: center;
+  display: flex;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(57, 62, 70);
+}
+footer .row .container {
+  color: #fff !important;
+}
+footer .row .container .row {
+  color: #fff !important;
+}
+footer .row .container .row .col-xl-4 ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+footer .row .container .row .col-xl-4 ul li a {
+  color: gray;
+  opacity: 0.7;
+}
+footer .row .container .row .col-xl-4 ul li a:hover {
+  color: #fff;
+}
+
+@media (max-width: 968px) {
+  footer .row .col-xl-7 .row {
+    gap: 25px;
+  }
+  #hosting .container .row {
+    gap: 25px;
+  }
+}
