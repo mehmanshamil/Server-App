@@ -3,20 +3,50 @@
   text-decoration: none !important;
 }
 
-header {
+header .head {
   background-color: rgb(52, 58, 64);
 }
-header .container {
+header .head img {
+  width: 140px;
+  height: 30px;
+}
+header .head .share i {
+  transition: 1s;
+  cursor: pointer;
+  font-size: 1.3rem;
+  padding: 20px;
+}
+header .head .share i:hover {
+  color: #fff;
+}
+header .head .share .shoppingBasket {
+  color: #fff;
+  background-color: #75ad25;
+}
+header .head .share .shoppingBasket:hover {
+  background: transparent;
+}
+header .container .logo-server span {
+  font-size: 2rem;
+  font-weight: 400;
+}
+header .container .sharedd .mini-box i {
+  font-size: 2rem;
+}
+header .container-home {
+  background-color: rgb(52, 58, 64);
+}
+header .container-home .container {
   width: 83% !important;
 }
-header .container ul li a {
+header .container-home .container ul li a {
   color: #fff !important;
   opacity: 0.7;
 }
-header .container ul li a:hover {
+header .container-home .container ul li a:hover {
   opacity: 1;
 }
-header .container .buttons .registr {
+header .container-home .container .buttons .registr {
   color: #fff;
   border: none;
   background: transparent;
@@ -24,21 +54,21 @@ header .container .buttons .registr {
   padding: 10px 20px;
   transition: 1s;
 }
-header .container .buttons .registr:hover {
+header .container-home .container .buttons .registr:hover {
   background-color: #7cbd1e;
 }
-header .container .buttons .login {
+header .container-home .container .buttons .login {
   color: #fff;
   border: none;
   background-color: rgb(124, 189, 30);
   padding: 10px 20px;
   transition: 1s;
 }
-header .container .buttons .login:hover {
+header .container-home .container .buttons .login:hover {
   color: #7cbd1e;
   background: transparent;
 }
-header .container .mini-menu-item {
+header .container-home .container .mini-menu-item {
   color: black !important;
 }
 
@@ -65,7 +95,7 @@ header .container .mini-menu-item {
   color: #fff;
   background-color: rgb(124, 189, 30);
   border: none;
-  padding: 20px 30px;
+  padding: 20px 20px;
   width: 170px;
   transition: 1s;
 }
@@ -122,7 +152,7 @@ header .container .mini-menu-item {
   background-position: center;
   background-attachment: fixed;
   width: 100%;
-  height: 30rem;
+  height: 25rem;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -153,6 +183,44 @@ header .container .mini-menu-item {
   font-size: 2rem;
   font-weight: 500;
   opacity: 0.7;
+}
+#choose .container .ldm {
+  background-color: black;
+  color: #fff;
+  transition: 1s;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 1rem;
+}
+#choose .container .ldm:hover {
+  background-color: #fff;
+  color: black;
+}
+#choose .container #products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#choose .container #products .box {
+  width: 300px;
+  height: auto;
+  margin: 10px 0;
+}
+#choose .container #products .box img {
+  width: 100%;
+}
+#choose .container #products .box button {
+  background-color: green;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid green;
+  transition: 1s;
+  border-radius: 20px;
+}
+#choose .container #products .box button:hover {
+  background-color: #fff;
+  color: green;
 }
 #choose .container .row {
   display: flex;
@@ -205,11 +273,28 @@ footer .row .container .row .col-xl-4 ul li a:hover {
   color: #fff;
 }
 
+#filter .filterSec {
+  display: flex;
+  gap: 25px;
+}
+#filter .filterSec span {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+#filter .filterSec input {
+  cursor: pointer;
+}
+
 @media (max-width: 968px) {
   footer .row .col-xl-7 .row {
     gap: 25px;
   }
   #hosting .container .row {
     gap: 25px;
+  }
+}
+@media (max-width: 500px) {
+  header .container .sharedd .mini-box .boxContent {
+    display: none;
   }
 }
